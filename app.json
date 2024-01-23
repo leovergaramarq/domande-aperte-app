@@ -4,7 +4,7 @@
     "slug": "domande-aperte",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon-custom.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon-custom.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.leovergaramarq.domandeaperte"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon-custom.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6573c0a8-82dc-4df5-adcb-a83f0984217c"
+      }
     }
   }
 }
